@@ -6,7 +6,27 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/SignallingWebServer/" # Location of package manifests
     open-pull-requests-limit: 100
     schedule:
       interval: "weekly"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/SFU/" # Location of package manifests
+    open-pull-requests-limit: 100
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/Matchmaker/" # Location of package manifests
+    open-pull-requests-limit: 100
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/Frontend/implementations/typescript" # Location of package manifests
+    open-pull-requests-limit: 100
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/Frontend/library/" # Location of package manifests
+    open-pull-requests-limit: 100
+    schedule:
+      interval: "weekly"  
