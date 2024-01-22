@@ -13,7 +13,7 @@
     "build-dev-all": "npm link ../../library ../../ui-library && cd ../../library && npm run build-dev && cd ../ui-library && npm run build-dev-all && cd ../implementations/typescript && npm run build-dev"
   },
   "devDependencies": {
-    "webpack-cli": "^5.0.1",
+    "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.11.1",
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
