@@ -19,7 +19,7 @@
         "@types/webxr": "^0.5.1",
         "@typescript-eslint/eslint-plugin": "^5.16.0",
         "@typescript-eslint/parser": "^5.16.0",
-        "cspell": "^4.1.0",
+        "cspell": "^8.3.2",
         "eslint": "^8.11.0",
         "jest": "^27.5.1",
         "jest-environment-jsdom": "27.5.1",
